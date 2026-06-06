@@ -220,7 +220,16 @@ function printReceipt(sale){
     <p>Change: ${money(sale.change)}</p>
     <p style="text-align:center">Thank you ☕</p>
   </div>`;
+byId("printArea").classList.remove("hidden");
+
+setTimeout(()=>{
   window.print();
+
+  setTimeout(()=>{
+    byId("printArea").classList.add("hidden");
+  },300);
+
+},150);
 }
 
 function menuHtml(){
