@@ -417,9 +417,13 @@ th{
 .receipt-footer{
   text-align:center !important;
   border-top:1px dashed #999 !important;
-  padding-top:8px !important;
-  margin-top:8px !important;
-  font-weight:700 !important;
+  padding-top:10px !important;
+  margin-top:10px !important;
+  font-weight:900 !important;
+  font-size:14px !important;
+  line-height:1.8 !important;
+  direction:rtl !important;
+  color:#3b2416 !important;
 }
 
 /* MOBILE */
