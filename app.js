@@ -35,11 +35,23 @@ function render(){
   const app = byId("app");
   if(!state.logged){
     app.innerHTML = `
-    <div class="login card">
+    <div class="login card cafe-login">
+      <div class="coffee-logo">☕</div>
+
       <h2>چوونەژوورەوە</h2>
       <p class="muted">سیستەمی کاشێری قاوەخانە</p>
-      <label>Username</label><input id="loginUser" value="admin">
-      <label>Password</label><input id="loginPass" type="password" value="1234">
+
+      <div class="coffee-slogan">
+        <div>لێرە هەموو شتێك بە بۆنی قاوە</div>
+        <div>دەست پێدەكات ☕️</div>
+      </div>
+
+      <label>Username</label>
+      <input id="loginUser" value="admin">
+
+      <label>Password</label>
+      <input id="loginPass" type="password" value="1234">
+
       <button onclick="login()" style="margin-top:12px">Login</button>
     </div>`;
     return;
