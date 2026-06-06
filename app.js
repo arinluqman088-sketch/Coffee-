@@ -1,4 +1,4 @@
-const CACHE_NAME="cafe-pos-pro-v4";
+const LS = "CAFE_POS_PRO_DATA_V1";
 
 const defaultData = {
   user: { username: "admin", password: "1234", shopName: "Cafe POS Pro", phone: "0770 000 0000" },
