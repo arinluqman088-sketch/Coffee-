@@ -447,10 +447,9 @@ function printReceipt(sale){
       <p>Change: ${money(sale.change)}</p>
     </div>
 
-    <div class="receipt-footer">
-      <p>لێرە هەموو شتێك بە بۆنی قاوە دەست پێدەكات ☕️</p>
-      <p>Thank you</p>
-    </div>
+<div class="receipt-footer">
+  <p>“ هەر فنجانێک ، چیرۆکێکی تایبەت “</p>
+</div>
   </div>`;
 
   area.classList.remove("hidden");
